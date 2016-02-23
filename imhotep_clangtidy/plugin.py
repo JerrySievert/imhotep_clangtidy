@@ -9,6 +9,4 @@ class ClangTidy(Tool):
     file_extensions = ('.cpp','.c','.cc',)
 
     def get_command(self, dirname, linter_configs=None):
-        cmd = 'clang-tidy'
-
-        return cmd
+        return 'clang-tidy'
